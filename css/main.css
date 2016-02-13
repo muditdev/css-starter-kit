@@ -626,7 +626,7 @@ main {
   font-size: 20px;
   line-height: 35px;
   letter-spacing: 1px;
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .wrap-info p {
@@ -644,6 +644,26 @@ main {
   -o-box-shadow: -12px 10px 20px -5px #aaa;
   -ms-box-shadow: -12px 10px 20px -5px #aaa;
   box-shadow: -12px 10px 20px -5px #aaa;
+}
+
+.wrap-info .link {
+  margin-top: 50px;
+}
+
+.wrap-info .link a {
+  margin: 4px;
+  color: #793E71;
+  border: 2px solid;
+  padding: 15px 30px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -o-border-radius: 40px;
+  -ms-border-radius: 40px;
+  border-radius: 40px;
+}
+
+.wrap-info .link a:hover {
+  color: #65D269;
 }
 
 /*importing responsive*/
