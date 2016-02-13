@@ -647,10 +647,12 @@ main {
 }
 
 .wrap-info .link {
+  text-align: center;
   margin-top: 50px;
 }
 
 .wrap-info .link a {
+  display: inline-block;
   margin: 4px;
   color: #793E71;
   border: 2px solid;
